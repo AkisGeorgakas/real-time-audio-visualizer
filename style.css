@@ -1,0 +1,175 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color: rgb(8, 13, 8);
+}
+canvas {
+  display: block;
+  margin-bottom: 55px;
+}
+
+.playlist-div{
+  position:absolute;
+  left: 20px;
+  top: 250px;
+  display:flex;
+  flex-direction: column;
+  
+  gap:20px;
+  width:215px;
+}
+
+.playlist-div p{
+  color:white;
+}
+
+.song-button{
+  background-color: #2c451a00;
+  text-align: left;
+  color:white;
+  font-size: 15px;
+  border:none;
+  border-radius:20px;
+  padding:10px;
+  width:100%;
+}
+
+.song-button:hover{
+  background-color: rgb(27, 31, 27);
+}
+
+.song-button.active{
+  background-color: rgb(27, 31, 27);
+}
+
+.modesControl-div{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+
+  position:absolute;
+  left:20px;
+  top:20px;
+
+  padding: 10px 15px;
+  border-radius: 2px;
+
+  background-color: #1d2c14;
+}
+
+.modesControl-div p{
+  color:white;
+  margin-bottom:7px;
+}
+
+.modes-button{
+  background-color: #2c451a;
+  color:white;
+  font-size: 18px;
+  border:none;
+  border-radius:20px;
+  padding:10px;
+}
+.modes-button:hover{
+  background-color: #4b6935;
+}
+
+.modes-button.active{
+  background-color: #4b6935;
+}
+
+.progressSongControls-div{
+  width:600px;
+  display:flex;
+  flex-direction: row;
+}
+
+.progressSongControls-div p{
+  color:white;
+  width: 100px;
+}
+
+.songControls-div{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top:20px;
+  width:600px;
+}
+
+.mainSongControls-div{
+  display:flex;
+  gap:10px;
+  justify-content: center;
+}
+
+.mainSongControls-div button{
+  border-radius: 50%;
+  background-color: #2c451a;
+  color:white;
+  font-size: 32px;
+  border:none;
+}
+
+.previous-button{
+  padding: 3px 15px 10px 13px;
+}
+
+.next-button{
+  padding: 3px 13px 10px 15px;
+}
+
+.play-button{
+  padding: 3px 10px 10px 13px;
+}
+
+.play-button:hover{
+  background-color: #4b6935;
+}
+
+.volumeSongControls-div{
+  display:flex;
+  flex-direction: row;
+  gap:5px;
+  justify-content:end;
+}
+
+.volume-icon{
+  color:white;
+  display:flex;
+  align-items: center;
+}
+
+input[type="range"]{
+  background-color: rgba(255, 255, 255, 0);
+}
+input[type="range"]::-moz-range-progress {
+  background-color: #294813; 
+  height: 5px;
+}
+input[type="range"]::-moz-range-track {  
+  background-color: #36422d;
+  height: 5px;
+}
+
+.canvasControls-div{
+  display:flex;
+  flex-direction: column;
+
+  position:absolute;
+  right:20px;
+  top:20px;
+  width:215px;
+}
+
+.canvasControls-div p{
+  color:white;
+  margin-bottom:7px;
+}
+
+
+
