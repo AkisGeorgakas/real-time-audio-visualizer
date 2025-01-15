@@ -285,7 +285,7 @@ function initializeFlowers(){
 function preload() {
   // Load song and push to playlist[]
   loadSound(
-    `/music/${firstSong}`,
+    `/real-time-audio-visualizer/music/${firstSong}`,
     (sound) => {
       playlist.push({ name: firstSong, sound: sound });
     }
@@ -561,7 +561,7 @@ function loadOtherSongs() {
   // Iterate through the list of additional songs
   songsToLoad.forEach((fileName) => {
     loadSound(
-      `/music/${fileName}`,
+      `/real-time-audio-visualizer/music/${fileName}`,
       (sound) => {
         // On success: Update button and add to buttons list
         playlist.push({ name: fileName, sound: sound })
