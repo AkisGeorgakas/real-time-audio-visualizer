@@ -57,7 +57,7 @@ let playlistDivLabel;
 let playlist = [];
 let currentSong;
 let firstSong  = "witch_waltz.mp3";
-let songsToLoad = ["alma.mp3", "be_prepared.mp3", "bright_college_days.mp3", "fated_fantasy_iii.mp3", "mutant_club.mp3", "new_math.mp3"]; // Background songs
+let songsToLoad = ["be_prepared.mp3", "bright_college_days.mp3", "fated_fantasy_iii.mp3", "mutant_club.mp3", "new_math.mp3"]; // Background songs
 let isOtherSongsReady = false; // Status flag for background loading
 let songButtons = []; // To store button references
 
