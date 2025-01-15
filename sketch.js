@@ -56,8 +56,8 @@ let playlistDiv;
 let playlistDivLabel;
 let playlist = [];
 let currentSong;
-let firstSong  = "under_pressure.mp3";
-let songsToLoad = ["the_illuminator.mp3", "sega_sunset.mp3", "house_of_the_rising_sun.mp3", "all _of_me.mp3", "somebody_to_love.mp3", "pneuma.mp3", "i_put_a_spell_on_you.mp3", "atmosphere.mp3"]; // Background songs
+let firstSong  = "witch_waltz.mp3";
+let songsToLoad = ["alma.mp3", "be_prepared.mp3", "bright_college_days.mp3", "fated_fantasy_iii.mp3", "mutant_club.mp3", "new_math.mp3"]; // Background songs
 let isOtherSongsReady = false; // Status flag for background loading
 let songButtons = []; // To store button references
 
